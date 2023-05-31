@@ -1,200 +1,313 @@
 @media screen and (max-width:1100px) {
-    .header__banner{
+    .header__banner {
         justify-content: center;
     }
-    .header__banner__desc{
+
+    .header__banner__desc {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    .header__banner-h{
+
+    .header__banner-h {
         /* font-size: 60px;
         line-height: 60px; */
     }
-    .header__banner-p{
+
+    .header__banner-p {
         font-size: 20px;
         line-height: 34px;
     }
-    .header__banner__desc{
+
+    .header__banner__desc {
         position: absolute;
         z-index: 2;
     }
-    .header__banner-img{
+
+    .header__banner-img {
         z-index: 1;
         left: 50%;
         transform: translate(-50%);
         position: relative;
     }
 }
-@media screen and (max-width:991apx) {
-    .header__banner__desc{
+
+@media screen and (max-width:991px) {
+    .header__banner__desc {
         position: absolute;
         z-index: 2;
     }
-    .dishes__item{
+
+    .dishes__item {
         gap: 50px;
     }
 
 
 }
+
 @media screen and (max-width:898px) {
-    .preview__item{
+    .preview__item {
         gap: 90px;
     }
-    .advantages_desc{
+
+    .advantages_desc {
         gap: 30px;
     }
-    .advantages__counter_list{
+
+    .advantages__counter_list {
         gap: 40px;
     }
-    .advantages__counter-item-c{
+
+    .advantages__counter-item-c {
         font-size: 45px;
         line-height: 80px;
     }
+
     .advantages__wrap {
         gap: 100px;
     }
-    .dishes__item{
+
+    .dishes__item {
         gap: 10px;
     }
-    .dishes_desc-h2{
+
+    .dishes_desc-h2 {
         font-size: 30px;
         line-height: 40px;
     }
-    .dishes_desc-p{
+
+    .dishes_desc-p {
         font-size: 15px;
         line-height: 25px;
     }
-    .dishes-img{
+
+    .dishes-img {
         max-width: 400px;
     }
 }
+
 @media screen and (max-width:768px) {
-    .header__banner-h{
+    .header__banner-h {
         font-size: 60px;
         line-height: 60px;
     }
-    .header__banner-img{
+
+    .header__banner-img {
         left: 60%;
         transform: translate(-60%);
     }
-    .banner-p{
+
+    .banner-p {
         font-size: 30px;
         line-height: 40px;
     }
-    .preview__item{
+
+    .preview__item {
         flex-wrap: wrap;
         gap: 30px;
     }
 
-    .preview__desc{
+    .preview__desc {
         align-items: center;
         justify-content: center;
         text-align: center;
     }
-    .dishes_desc{
+
+    .dishes_desc {
         max-width: 500px;
     }
-    .preview__desc-h3{
+
+    .preview__desc-h3 {
         text-align: center;
     }
-    .dishes__item{
+
+    .dishes__item {
         flex-wrap: wrap;
     }
-    .dishes__wrap{
+
+    .dishes__wrap {
         gap: 50px;
     }
-    .dishes-img{
+
+    .dishes-img {
         max-width: 600px;
     }
+
+    .social__menu {
+        gap: 10px;
+    }
 }
+
 @media screen and (max-width:576px) {
-    .header__nav{
+    .header__nav {
         flex-direction: column;
     }
-    .header__menu{
+
+    .header__menu {
         padding: 20px 0;
     }
-    .header__banner-p{
+
+    .header__banner-p {
         font-size: 15px;
         line-height: 30px;
     }
-    .header__banner-img{
+
+    .header__banner-img {
         height: 552px;
         left: 50%;
         transform: translate(-30%);
     }
-    .header__banner-btn{
+
+    .header__banner-btn {
         padding: 10px 20px;
     }
-    .banner-p{
+
+    .banner-p {
         font-size: 25px;
         line-height: 35px;
     }
-    .advantages_desc{
+
+    .advantages_desc {
         flex-wrap: wrap;
     }
-    .advantages__counter_list{
+
+    .advantages__counter_list {
         flex-wrap: wrap;
     }
+
     .advantages__wrap {
         gap: 80px;
     }
-    .dishes_desc-h2{
+
+    .dishes_desc-h2 {
         font-size: 25px;
         line-height: 35px;
     }
-    .news__slider-p1, .news__slider-p2 {
+
+    .news__slider-p1,
+    .news__slider-p2 {
         font-size: 20px;
         line-height: 35px;
 
     }
-    .news__slider-btn{
+
+    .news__slider-btn {
         margin: 0 0 60px;
     }
 
+    .footer__notified {
+        text-align: center;
+
+    }
+
+    .footer__notified-h {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .form__email {
+        width: 210px;
+        height: 60px;
+    }
+
+    .form__submite {
+        height: 60px;
+        width: 100px
+    }
+
+    .footer__btm {
+        gap: 100px;
+    }
+
+    .social__menu {
+        flex-wrap: wrap;
+    }
 }
+
+@media screen and (max-width:460px) {
+    .footer__middle-h {
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .footer__middle_buttons {
+        flex-wrap: wrap;
+    }
+
+}
+
 @media screen and (max-width:390px) {
-    .header__menu{
+    .header__menu {
         gap: 10px;
         padding: 25px 0;
     }
-    .header__menu-item a{
+
+    .header__menu-item a {
         font-size: 13px;
     }
-    .header__banner-h{
+
+    .header__banner-h {
         font-size: 40px;
         line-height: 40px;
     }
-    .header__banner-p{
+
+    .header__banner-p {
         text-align: center;
         font-size: 15px;
         line-height: 30px;
     }
-    .header__banner-img{
+
+    .header__banner-img {
         height: 552px;
         left: 50%;
         transform: translate(-30%);
     }
-    .banner-p{
+
+    .banner-p {
         font-size: 20px;
         line-height: 30px;
     }
+
     .advantages__wrap {
         gap: 50px;
     }
-    .news__slider-p1, .news__slider-p2 {
+
+    .news__slider-p1,
+    .news__slider-p2 {
         font-size: 15px;
         line-height: 25px;
 
     }
-    .news__slider-btn1, .news__slider-btn2 {
+
+    .news__slider-btn1,
+    .news__slider-btn2 {
         font-size: 10px;
         line-height: 20px;
         color: #6B6B6B;
-}
-.news__slider-btn{
-    margin: 0 0 40px;
-}
+    }
+
+    .news__slider-btn {
+        margin: 0 0 40px;
+    }
+
+    .footer__middle-h {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .form__email {
+        width: 150px;
+        height: 50px;
+    }
+
+    .form__submite {
+        height: 50px;
+        width: 80px
+    }
+
+    .footer__btm {
+        gap: 80px;
+    }
 }

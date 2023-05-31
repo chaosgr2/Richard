@@ -1,0 +1,112 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__banner{
+    min-height: 517px;
+    width: 100%;
+    background: url(../img/footer_banner.png) no-repeat center/cover;
+}
+.footer__middle{
+    min-height: 474px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/wave.svg) no-repeat center/cover, linear-gradient(276.18deg, #6E28B1 0%, rgba(0, 0, 0, 0) 100%), #FC0A7E;
+}
+.footer__middle-h{
+    margin: 0 0 40px;
+    font-size: 38px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.footer__middle_buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.dowloads-btn,
+.getintouch-btn{
+    padding: 20px 40px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FC0A7E;
+    border-radius: 3px;
+}
+.getintouch-btn{
+    background: none;
+    border: 1px solid #B04BB3;
+}
+.footer__btm{
+    width: 100%;
+    height: 100vh;
+    background: #1B1B1B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 126px;
+}
+.footer__form{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+.form__email{
+    padding: 22px 3p;
+    border: none;
+    width: 310px;
+    height: 70px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 0px #FC0A7E;
+    border-radius: 3px 0px 0px 3px;
+}
+.form__submite{
+    border: none;
+    height: 70px;
+    width: 154px;
+    background: #FC0A7E;
+    border-radius: 0px 3px 3px 0px;
+}
+.footer__notified{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__notified-h{
+    font-size: 38px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin: 0 0 20px;
+}
+.footer__notified-p{
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B6B6B;
+    margin: 0 0 40px;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+   gap: 30px; 
+}
+.footer__logo{
+    margin: 0 0 30px;
+}
+.social__menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.social__menu_item a{
+    font-size: 12px;
+    line-height: 20px;
+    color: #6B6B6B;
+}

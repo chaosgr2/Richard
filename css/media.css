@@ -38,6 +38,19 @@
     .preview__item{
         gap: 90px;
     }
+    .advantages_desc{
+        gap: 30px;
+    }
+    .advantages__counter_list{
+        gap: 40px;
+    }
+    .advantages__counter-item-c{
+        font-size: 45px;
+        line-height: 80px;
+    }
+    .advantages__wrap {
+        gap: 100px;
+    }
 }
 @media screen and (max-width:768px) {
     .header__banner-h{
@@ -89,6 +102,16 @@
         font-size: 25px;
         line-height: 35px;
     }
+    .advantages_desc{
+        flex-wrap: wrap;
+    }
+    .advantages__counter_list{
+        flex-wrap: wrap;
+    }
+    .advantages__wrap {
+        gap: 80px;
+    }
+
 }
 @media screen and (max-width:390px) {
     .header__menu{
@@ -115,6 +138,9 @@
     .banner-p{
         font-size: 20px;
         line-height: 30px;
+    }
+    .advantages__wrap {
+        gap: 50px;
     }
 }
 

@@ -45,6 +45,10 @@
         left: 60%;
         transform: translate(-60%);
     }
+    .banner-p{
+        font-size: 30px;
+        line-height: 40px;
+    }
 }
 @media screen and (max-width:576px) {
     .header__nav{
@@ -64,6 +68,10 @@
     }
     .header__banner-btn{
         padding: 10px 20px;
+    }
+    .banner-p{
+        font-size: 25px;
+        line-height: 35px;
     }
 }
 @media screen and (max-width:390px) {
@@ -87,6 +95,10 @@
         height: 552px;
         left: 50%;
         transform: translate(-30%);
+    }
+    .banner-p{
+        font-size: 20px;
+        line-height: 30px;
     }
 }
 

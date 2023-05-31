@@ -27,7 +27,7 @@
 .header__banner {
     display: flex;
     align-items: center;
-    /* position: absolute; */
+    position: absolute;
 }
 
 .header__banner-h {

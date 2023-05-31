@@ -21,9 +21,9 @@
     color: #FFFFFF;
 }
 .header__banner{
-    /* height: 100%; */
     display: flex;
     align-items: center;
+    /* position: absolute; */
 }
 
 .header__banner-h{

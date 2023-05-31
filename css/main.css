@@ -10,7 +10,11 @@
     padding: 0 15px;
     width: 100%;
 }
-
+.contener{
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+}
 .next{
     position: absolute;
     padding: 0 0 30px;
@@ -90,6 +94,11 @@
     font-size: 16px;
     line-height: 30px;
     color: #6B6B6B;
+}
+.preview-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 .advantages__wrap{
     display: flex;

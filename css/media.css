@@ -34,9 +34,12 @@
     }
 
 }
+@media screen and (max-width:898px) {
+    .preview__item{
+        gap: 90px;
+    }
+}
 @media screen and (max-width:768px) {
-
-
     .header__banner-h{
         font-size: 60px;
         line-height: 60px;
@@ -48,6 +51,19 @@
     .banner-p{
         font-size: 30px;
         line-height: 40px;
+    }
+    .preview__item{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .preview__desc{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .preview__desc-h3{
+        text-align: center;
     }
 }
 @media screen and (max-width:576px) {

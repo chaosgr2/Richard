@@ -145,7 +145,14 @@
         font-size: 25px;
         line-height: 35px;
     }
+    .news__slider-p1, .news__slider-p2 {
+        font-size: 20px;
+        line-height: 35px;
 
+    }
+    .news__slider-btn{
+        margin: 0 0 60px;
+    }
 
 }
 @media screen and (max-width:390px) {
@@ -177,5 +184,17 @@
     .advantages__wrap {
         gap: 50px;
     }
-}
+    .news__slider-p1, .news__slider-p2 {
+        font-size: 15px;
+        line-height: 25px;
 
+    }
+    .news__slider-btn1, .news__slider-btn2 {
+        font-size: 10px;
+        line-height: 20px;
+        color: #6B6B6B;
+}
+.news__slider-btn{
+    margin: 0 0 40px;
+}
+}
